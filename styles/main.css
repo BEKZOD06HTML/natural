@@ -1,0 +1,359 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.continer {
+  width: 1400px;
+  margin: 0 auto;
+  height: 9000px;
+  background-color: white;
+}
+.continer header {
+  width: 100%;
+  height: 800px;
+  background-size: 100%;
+  padding: 0 10%;
+}
+.continer header .menu {
+  width: 100%;
+}
+.continer header .menu nav {
+  display: flex;
+  width: 400px;
+}
+.continer header .menu nav img {
+  position: relative;
+  top: 25px;
+}
+.continer header .menu nav span {
+  position: relative;
+  top: 35px;
+  left: 20px;
+  color: white;
+  width: 200px;
+  height: 50px;
+}
+.continer header .menu .number {
+  justify-self: end;
+  position: relative;
+  bottom: 20px;
+}
+.continer header .menu .number .btn1 {
+  color: white;
+  background-color: transparent;
+  border-radius: 8px;
+  border: 2px solid white;
+  transition: 0.5s ease;
+  cursor: pointer;
+  margin-right: 10px;
+}
+.continer header .menu .number .btn1:hover {
+  background-color: rgb(175, 172, 172);
+  scale: 1.1;
+}
+.continer header .menu .number .btn2 {
+  border-radius: 50px;
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+  background-color: transparent;
+  border: 2px solid white;
+  cursor: pointer;
+  transition: 0.5s ease;
+}
+.continer header .menu .number .btn2:hover {
+  background-color: rgb(175, 172, 172);
+  scale: 1.1;
+}
+.continer header .menu .number nav {
+  display: flex;
+  width: 290px;
+  height: 40px;
+  color: white;
+  gap: 10px;
+}
+.continer header .gg {
+  width: 500px;
+  height: 300px;
+  position: relative;
+  top: 28%;
+}
+.continer header .gg .btn3 {
+  border: none;
+  border-radius: 50px;
+  width: 150px;
+  height: 50px;
+  background: white;
+  cursor: pointer;
+  transition: 0.5s ease;
+}
+.continer header .gg .btn3:hover {
+  background: rgb(223, 223, 223);
+  scale: 1.1;
+}
+.continer .page2 {
+  width: 100%;
+  height: 550px;
+  padding: 4% 10%;
+}
+.continer .page3 {
+  width: 100%;
+  height: 950px;
+  padding: 0 10%;
+}
+.continer .page4 {
+  width: 100%;
+  height: 3500px;
+  padding: 2% 10%;
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  align-items: center;
+  margin-top: 40px;
+}
+.continer .page4 button {
+  width: 150px;
+  height: 50px;
+  background-color: white;
+  border: 2px solid black;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: 0.5s ease;
+  margin: 40px;
+}
+.continer .page4 button:hover {
+  background: rgb(246, 244, 244);
+  scale: 1.1;
+}
+.continer .b {
+  width: 100%;
+  height: 50px;
+}
+.continer .b .btn5 {
+  background-color: blue;
+  color: white;
+  border: none;
+  border-radius: 50px;
+  width: 150px;
+  height: 50px;
+  cursor: pointer;
+  transition: 0.5s ease;
+  position: relative;
+  left: 45%;
+}
+.continer .b .btn5:hover {
+  background: rgb(2, 2, 152);
+  scale: 1.1;
+}
+.continer .page5 {
+  margin-top: 30px;
+  display: flex;
+  width: 100%;
+  height: 500px;
+  padding: 0 10%;
+  gap: 50px;
+}
+.continer .page5 p {
+  width: 400px;
+  font-size: 20px;
+  background-color: blue;
+  color: white;
+}
+.continer .int {
+  gap: 50px;
+  width: 100%;
+  height: 300px;
+  padding: 0 10%;
+}
+.continer .int input {
+  width: 250px;
+  height: 50px;
+  border-radius: 10px;
+  border: 1px solid gray;
+  padding: 10px;
+}
+.continer .int button {
+  background-color: blue;
+  color: white;
+  border: none;
+  border-radius: 50px;
+  width: 150px;
+  height: 50px;
+  cursor: pointer;
+  transition: 0.5s ease;
+  margin-left: 15px;
+}
+.continer .int button:hover {
+  background: rgb(2, 2, 152);
+  scale: 1.1;
+}
+.continer .int p {
+  margin-top: 10px;
+}
+.continer .int p input {
+  width: 15px;
+  height: 15px;
+}
+.continer .page6 {
+  width: 100%;
+  height: 150px;
+  padding: 0 10%;
+}
+.continer .page6 h1 {
+  width: 300px;
+  height: 130px;
+}
+.continer .page7 {
+  width: 100%;
+  height: 500px;
+  padding: 0 10%;
+  display: flex;
+}
+.continer .page7 .card {
+  width: 25%;
+  height: 500px;
+}
+.continer .page8 {
+  width: 100%;
+  height: 800px;
+  padding: 0 10%;
+  display: flex;
+}
+.continer .page8 .card1 {
+  width: 20%;
+  height: 800px;
+  color: white;
+  background-color: blue;
+  padding: 10px;
+  font-size: 35px;
+  border-radius: 10px;
+}
+.continer .page8 .card1 p {
+  height: 25%;
+}
+.continer .page8 .card2 {
+  width: 25%;
+  height: 800px;
+}
+.continer .page8 .card2 p {
+  height: 15%;
+}
+.continer .page8 .card3 {
+  width: 25%;
+  height: 800px;
+  border: 5px solid blue;
+  border-radius: 10px;
+}
+.continer .page8 .card3 p {
+  height: 15%;
+}
+.continer .page8 .card4 {
+  width: 25%;
+  height: 800px;
+}
+.continer .page8 .card4 p {
+  height: 15%;
+}
+.continer .page9 {
+  width: 100%;
+  height: 800px;
+  padding: 0 10%;
+  margin-top: 100px;
+  color: white;
+  background-size: 100%;
+}
+.continer .page9 .text {
+  width: 400px;
+  height: 100px;
+  position: relative;
+  top: 30%;
+}
+.continer .page9 .text p {
+  width: 400px;
+}
+.continer footer {
+  background: #f9f9f9;
+  padding: 0 10%;
+}
+.continer footer .footer-container {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.continer footer .footer-container .contact-form,
+.continer footer .footer-container .media {
+  flex: 1;
+  margin: 0 10px;
+}
+.continer footer .footer-container .contact-form h3,
+.continer footer .footer-container .media h3 {
+  font-size: 18px;
+  margin-bottom: 15px;
+  color: #333;
+}
+.continer footer .footer-container .contact-form form,
+.continer footer .footer-container .media form {
+  display: flex;
+  flex-direction: column;
+}
+.continer footer .footer-container .contact-form form input,
+.continer footer .footer-container .media form input {
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+.continer footer .footer-container .contact-form form label,
+.continer footer .footer-container .media form label {
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  color: #666;
+}
+.continer footer .footer-container .contact-form form label input,
+.continer footer .footer-container .media form label input {
+  margin-right: 5px;
+}
+.continer footer .footer-container .contact-form form button,
+.continer footer .footer-container .media form button {
+  width: 200px;
+  height: 50px;
+  padding: 10px 20px;
+  background: #003ecc;
+  color: white;
+  border: none;
+  border-radius: 50px;
+  transition: 0.3s ease;
+  cursor: pointer;
+}
+.continer footer .footer-container .contact-form form button:hover,
+.continer footer .footer-container .media form button:hover {
+  background: #003ecc;
+}
+.continer footer .footer-container .contact-form p,
+.continer footer .footer-container .contact-form a,
+.continer footer .footer-container .media p,
+.continer footer .footer-container .media a {
+  font-size: 14px;
+  color: #333;
+  margin-bottom: 10px;
+  text-decoration: none;
+}
+.continer footer .footer-container .contact-form p:hover,
+.continer footer .footer-container .contact-form a:hover,
+.continer footer .footer-container .media p:hover,
+.continer footer .footer-container .media a:hover {
+  text-decoration: underline;
+}
+.continer footer .lin {
+  margin: 50px 0;
+}
+.continer footer .footer-bottom {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 14px;
+  color: #666;
+}/*# sourceMappingURL=main.css.map */
